@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Bagulho",
+        "description": "Apenas um bagulho",
+        "location": "Em uma caixa"
+    },
+    {
+        "id": 2,
+        "name": "Tranqueira",
+        "description": "Apenas uma tranqueira qualquer",
+        "location": "Em um gaveteiro qualquer"
+    },
+    {
+        "id": 3,
+        "name": "Bagulete",
+        "description": "Apenas um bagulete qualquer",
+        "location": "Em um caixote na esquina"
+    }
+]
