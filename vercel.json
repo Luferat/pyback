@@ -2,19 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.py",
-            "use": "@Luferat/pyback",
-            "config": {
-                "includeFiles": [
-                    "items.json"
-                ]
-            }
+            "src": "./index.py",
+            "use": "@vercel/python"
         }
     ],
     "routes": [
         {
-            "src": "(.*)",
-            "dest": "app6.py"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
 }
